@@ -1,7 +1,7 @@
 const request = require('request');
 const Timeout = require('await-timeout');
 
-const webhookurl = "https://discordapp.com/api/webhooks/.."
+const webhookurl = "https://discordapp.com/api/webhooks/622910304791167016/fvQwZ261fm71ktHNp1SCxDrGqB1OOMSjjchOntcZgmTouM00TsidgYQJE-LeMHY8FDHt"
 
 async function run() {
 
@@ -13,7 +13,7 @@ async function run() {
 				"Content-Type": "application/json"
 			},
 			json: {
-				"content": "@everyone txm on ya forehead"
+				"content": "@everyone THIS IS A SCAM SERVER. NOTIFICATION COURTESY OF @NOTIFY STAFF ."
 			}
 		}, (err, res, body) => {
 			if (err) console.error(err);
